@@ -2,7 +2,6 @@ import argparse
 from bs4 import BeautifulSoup as BS
 import requests
 import csv
-import re
 
 def ReadCSV(path):
     file = open(path)
